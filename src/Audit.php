@@ -168,6 +168,9 @@ class Audit extends Module
      */
     public $traceLine = \yii\debug\Module::DEFAULT_IDE_TRACELINE;
 
+    /* @see \yii\debug\Module::$tracePathMappings (since 2.1.6) */
+    public $tracePathMappings = [];
+
     /**
      * @var array
      */
